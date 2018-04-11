@@ -5,16 +5,16 @@
 	#include <iostream>
 int main()
 {
-	int userAge;
+	int numChoice;
 
-	std::cout << "How old are you?" << std::endl;
-	std::cin >> userAge;
+	
 
-
-
-
-
+		std::cout << "Please enter your age" << std::endl;
+		std::cin >> numChoice;
+		std::cout << "Somone should put you in a box floating down the river grandma." << std::endl;
 
 
 
+	system("pause");
+	return 0;
 }
