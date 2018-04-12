@@ -11,7 +11,7 @@ int main()
 	int userchoice;//Choice of pizza
 	double pizzaSmall = 7.99, pizzaMeduim = 8.99, pizzaLarge = 10.99;//Prices
 	int pizzaSize; //The size of the pizza
-	std::string pizzaString = NULL;
+	//std::string pizzaString = NULL;
 
 	std::cout << " Welcome to Luigi's Pizza Joint!" << std::endl;
 	
@@ -37,7 +37,7 @@ int main()
 		
 	}
 
-	std::cout << "your total a" << pizzaString << "is" << total;
+	std::cout << "your total is" << total;
 
 	system("pause");
 	return 0;
