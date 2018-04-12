@@ -8,7 +8,7 @@
 int main()
 {
 	double total;
-	int userchoice;//Choice of pizza
+	int userchoice, toppingsChoice;//Choice of pizza
 	double pizzaSmall = 7.99, pizzaMeduim = 8.99, pizzaLarge = 10.99;//Prices
 	int pizzaSize; //The size of the pizza
 	//std::string pizzaString = NULL;
@@ -25,6 +25,12 @@ int main()
 		if (userchoice == 1)
 		{
 			//peperoni
+			std::cout << "would you like to add another topping" << std::endl;
+			std::cin >> toppingsChoice;
+			if (toppingsChoice == 1)
+			{
+				
+			}
 		}
 		else if (userchoice == 2)
 		{
