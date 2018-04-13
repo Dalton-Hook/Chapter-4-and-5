@@ -41,6 +41,10 @@ int main()
 		{
 			std::cout << "Someone should put you in a box, and float you down the river." << std::endl;
 		}
+		else if (numChoice >= 53 && numChoice < 89)
+		{
+			std::cout << "poptart." << std::endl;
+		}
 
 	system("pause");
 	return 0;
