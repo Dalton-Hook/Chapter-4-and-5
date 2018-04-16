@@ -54,7 +54,7 @@ int main()
 		std::cin >> userInputetriangle;
 	if (userInputSide == "C")
 	{
-		std::cout << "you chose " << userInputSide << ", what is Side A? >>" << std::endl;
+		std::cout << "you chose " << userInputSide << ", what is lenth A? >>" << std::endl;
 		std::cin >> sideA;
 		std::cout << "what is the distance for side B?" << std::endl;
 		std::cin >> sideB;
@@ -63,7 +63,7 @@ int main()
 	}
 	else if (userInputSide == "A")
 	{
-		std::cout << "you chose " << userInputSide << ", What side is B >>" << std::endl;
+		std::cout << "you chose " << userInputSide << ", what is the lenght of side B >>" << std::endl;
 		std::cin >> sideB;
 		std::cout << "What distance is C" << std::endl;
 		std::cin >> sideC;
@@ -72,7 +72,7 @@ int main()
 	}
 	else if (userInputSide == "B")
 	{
-		std::cout << "you chose " << userInputSide << ", What side is A >>" << std::endl;
+		std::cout << "you chose " << userInputSide << ", What is the length of side A >>" << std::endl;
 		std::cin >> sideA;
 		std::cout << "What distance is C" << std::endl;
 		std::cin >> sideC;

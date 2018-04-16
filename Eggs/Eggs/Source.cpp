@@ -16,7 +16,7 @@ int main()
 
 	dozenTotal = 2.00 * dozen;
 	remainderTotal = 0.25 * remainderEggs;
-	std::cout << "You have " << userEggs<< " your total is " << remainderTotal + dozenTotal << std::endl;
+	std::cout << "You have " << userEggs << " your total is " << remainderTotal + dozenTotal << std::endl;
 	std::cout << "You get " << dozen << "dozen and " << remainderEggs << " eggs left" <<std::endl;
 
 
